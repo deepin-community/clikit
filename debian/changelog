@@ -1,5 +1,21 @@
-template-repository (1.0-1) unstable; urgency=medium
+clikit (0.6.2-3) unstable; urgency=medium
 
-  * Initial release
+  * debian/control
+    - run wrap-and-sort
+    - add crashtest to Depends, needed on python >= 3.6
+    - set DPT as Maintainer, Emmanuel as Uploaders
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sandro Tosi <morph@debian.org>  Mon, 08 Nov 2021 23:21:15 -0500
+
+clikit (0.6.2-2) unstable; urgency=medium
+
+  * Team Upload.
+  * No change source-only upload.
+
+ -- Stefano Rivera <stefanor@debian.org>  Thu, 04 Feb 2021 19:14:47 -0700
+
+clikit (0.6.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #977675)
+
+ -- Emmanuel Arias <eamanu@yaerobi.com>  Sun, 31 Jan 2021 22:12:23 -0300
